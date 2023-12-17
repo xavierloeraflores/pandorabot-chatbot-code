@@ -2,6 +2,8 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>Hello! Welcome! Congrats on all the hard work you have put in so 
+    far as you are nearing you degree completion!
+    I can help you figure out a great career path post graduation.</template>
   </category>
 </aiml>
