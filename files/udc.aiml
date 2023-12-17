@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+    <category>
+        <pattern>*</pattern>
+        <template>Hello! Welcome! Congrats on all the hard work you have put in so 
+        far as you are nearing you degree completion!
+        I can help you figure out a great career path post graduation. 
+        May I <set name="topic">help</set> you?
+        </template>
+    </category>
+    
+<topic name="help">
   <category>
-    <pattern>*</pattern>
-    <template>Hello! Welcome! Congrats on all the hard work you have put in so 
-    far as you are nearing you degree completion!
-    I can help you figure out a great career path post graduation.</template>
+      <pattern>^ YES ^</pattern>
+      <that></that>
+      <template>Great!</template>
   </category>
+  
+  <category>
+      <pattern>^ NO ^</pattern>
+      <template>No Problem! It sounds like you have it all figured out!</template>
+  </category>
+</topic>
+ 
 </aiml>
