@@ -9,17 +9,30 @@
         </template>
     </category>
     
+<topic name =""></topic>
 <topic name="help">
   <category>
       <pattern>^ YES ^</pattern>
       <that></that>
-      <template>Great!</template>
+      <template>Great! I can help you find a great <set name="topic">career</set>!</template>
   </category>
   
   <category>
       <pattern>^ NO ^</pattern>
-      <template>No Problem! It sounds like you have it all figured out!</template>
+      <template>No Problem! It sounds like you have it all figured <set name="topic">out</set>!</template>
   </category>
+</topic>
+
+<topic name="career">
+    
+</topic>
+
+<topic name="out">
+    <category>
+        <pattern>*</pattern>
+        <template>Thank you for using our service!<set name="topic"></set>
+        </template>
+    </category>
 </topic>
  
 </aiml>
