@@ -14,7 +14,9 @@
   <category>
       <pattern>^ YES ^</pattern>
       <that></that>
-      <template>Great! I can help you find a great <set name="topic">career</set>!</template>
+      <template>Great! I can help you find a great <set name="topic">career</set>!
+      Do you like coding or design more?
+      </template>
   </category>
   
   <category>
@@ -24,6 +26,18 @@
 </topic>
 
 <topic name="career">
+    <category>
+        <pattern>^ DESIGN ^</pattern>
+        <template>Great. Yes or no. Do you want your career to purely focus on the<set name="topic">design</set>side?</template>
+    </category>
+    <category>
+        <pattern>^ CODING ^</pattern>
+        <template>Great. Yes or no. Do you want your career to purely focus on the<set name="topic">coding</set>?</template>
+    </category>
+        <category>
+        <pattern>^ BUSINESS ^</pattern>
+        <template>Great. Yes or no. Do you want your career to purely focus on the<set name="topic">business</set>?</template>
+    </category>
     
 </topic>
 
