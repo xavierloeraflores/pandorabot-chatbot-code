@@ -15,7 +15,7 @@
       <pattern>^ YES ^</pattern>
       <that></that>
       <template>Great! I can help you find a great <set name="topic">career</set>!
-      Do you like coding or design more?
+      Do you like coding, design, or business the most?
       </template>
   </category>
   
@@ -28,18 +28,93 @@
 <topic name="career">
     <category>
         <pattern>^ DESIGN ^</pattern>
-        <template>Great. Yes or no. Do you want your career to purely focus on the<set name="topic">design</set>side?</template>
+        <template>Great. Yes or no. Do you want your career to purely focus on the <set name="topic">design</set>side?</template>
     </category>
     <category>
         <pattern>^ CODING ^</pattern>
-        <template>Great. Yes or no. Do you want your career to purely focus on the<set name="topic">coding</set>?</template>
+        <template>Great. Yes or no. Do you want your career to purely focus on the <set name="topic">coding</set>side?</template>
     </category>
         <category>
         <pattern>^ BUSINESS ^</pattern>
-        <template>Great. Yes or no. Do you want your career to purely focus on the<set name="topic">business</set>?</template>
+        <template>Great. Yes or no. Do you want your career to purely focus on the <set name="topic">business</set>side?</template>
     </category>
-    
 </topic>
+
+<topic name="business">
+    <category>
+    <pattern>^ YES ^</pattern>
+      <that></that>
+      <template>Great!You should check<set name="topic">out</set> a career in:!
+      </template>
+  </category>
+  
+  <category>
+      <pattern>^ NO ^</pattern>
+      <template>No Problem! Aside from business, do you prefer coding or design?</template>
+  </category>
+  <category>
+      <pattern>^ CODING ^</pattern>
+      <template>Great!You should check<set name="topic">out</set> a career in:!
+      </template>
+  </category>
+  <category>
+      <pattern>^ DESIGN ^</pattern>
+      <template>Great!You should check<set name="topic">out</set> a career in:!
+      </template>
+  </category>
+</topic>
+
+<topic name="coding">
+    <category>
+    <pattern>^ YES ^</pattern>
+      <that></that>
+      <template>Great!You should check<set name="topic">out</set> a career in:!
+      </template>
+  </category>
+  
+  <category>
+      <pattern>^ NO ^</pattern>
+      <template>No Problem! Aside from coding, do you prefer business or design?</template>
+  </category>
+  <category>
+      <pattern>^ BUSINESS ^</pattern>
+      <template>Great!You should check<set name="topic">out</set> a career in:!
+      </template>
+  </category>
+  <category>
+      <pattern>^ DESIGN ^</pattern>
+      <template>Great!You should check<set name="topic">out</set> a career in:!
+      </template>
+  </category>
+</topic>
+
+<topic name="design">
+    <category>
+    <pattern>^ YES ^</pattern>
+      <that></that>
+      <template>Great!You should check<set name="topic">out</set> a career in:!
+      </template>
+  </category>
+  
+  <category>
+      <pattern>^ NO ^</pattern>
+      <template>No Problem! Aside from design, do you prefer coding or business?</template>
+  </category>
+  <category>
+      <pattern>^ CODING ^</pattern>
+      <template>Great!You should check<set name="topic">out</set> a career in:!
+      </template>
+  </category>
+  <category>
+      <pattern>^ BUSINESS ^</pattern>
+      <template>Great!You should check<set name="topic">out</set> a career in:!
+      </template>
+  </category>
+</topic>
+
+
+
+
 
 <topic name="out">
     <category>
