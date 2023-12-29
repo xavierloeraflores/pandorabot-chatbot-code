@@ -28,15 +28,28 @@
 <topic name="career">
     <category>
         <pattern>^ DESIGN ^</pattern>
-        <template>Great. Yes or no. Do you want your career to purely focus on the <set name="topic">design</set>side?</template>
+        <template>Great. Yes or no. Do you want your career to purely focus on the design side?
+        <learn>
+            <category>
+                <pattern>^ YES ^</pattern>
+                <template>Great!You should check<set name="topic">out</set> a career in:UX/UI Design!
+                </template>
+            </category>
+            <category>
+                <pattern>^ NO ^</pattern>
+                <template>No Problem! You should check<set name="topic">out</set> a career in:!</template>
+            </category>
+        </learn>
+        </template>
+    </category>
+    <category>
+    <pattern>^ BUSINESS ^</pattern>
+    <template>Great. Yes or no. Do you want your career to purely focus on the <set name="topic">business</set>side?</template>
+    <learn></learn>
     </category>
     <category>
         <pattern>^ CODING ^</pattern>
         <template>Great. Yes or no. Do you want your career to purely focus on the <set name="topic">coding</set>side?</template>
-    </category>
-        <category>
-        <pattern>^ BUSINESS ^</pattern>
-        <template>Great. Yes or no. Do you want your career to purely focus on the <set name="topic">business</set>side?</template>
     </category>
 </topic>
 
@@ -54,11 +67,6 @@
   </category>
   <category>
       <pattern>^ CODING ^</pattern>
-      <template>Great!You should check<set name="topic">out</set> a career in:!
-      </template>
-  </category>
-  <category>
-      <pattern>^ DESIGN ^</pattern>
       <template>Great!You should check<set name="topic">out</set> a career in:!
       </template>
   </category>
@@ -105,16 +113,7 @@
       <template>Great!You should check<set name="topic">out</set> a career in:!
       </template>
   </category>
-  <category>
-      <pattern>^ BUSINESS ^</pattern>
-      <template>Great!You should check<set name="topic">out</set> a career in:!
-      </template>
-  </category>
 </topic>
-
-
-
-
 
 <topic name="out">
     <category>
@@ -124,9 +123,5 @@
     </category>
 </topic>
  
-<category>
-    <pattern>hi
-</pattern>
-    <template>Edit bot response</template>
-</category>
+
 </aiml>
