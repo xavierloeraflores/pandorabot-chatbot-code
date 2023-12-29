@@ -124,4 +124,9 @@
     </category>
 </topic>
  
+<category>
+    <pattern>hi
+</pattern>
+    <template>Edit bot response</template>
+</category>
 </aiml>
