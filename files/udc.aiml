@@ -48,7 +48,7 @@
         <learn>
             <category>
                 <pattern>^ YES ^</pattern>
-                <template>Great!You should check<set name="topic">out</set> a career as a: Technical Project Manager!
+                <template>Great!You should check<set name="topic">out</set> a career as a: Project Manager!
                 </template>
             </category>
             <category>
